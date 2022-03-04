@@ -24,6 +24,7 @@ bcdedit /set hypervisorlaunchtype off
 bcdedit /set hypervisorlaunchtype auto
 ```
 4.关闭虚拟内存
+
 5.修改组策略(gpedit.msc)禁用宽带预留
 ## Windows 开发环境配置
 ### 设置 WSL 开发环境
