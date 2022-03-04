@@ -48,4 +48,19 @@ sudo apt-get install wget ca-certificates #添加 wget和 ca 证书
 ```bsah
 code .
 ```
+### 在 WSL 上使用Git
+Git 能安装在Window系统，也能安装在WSL。
 
+1.安装 Git
+```bash
+sudo apt-get install git
+```
+2.配置Git
+```bash
+git config --global user.name "liaoxuanqiang"
+git config --global user.email "liaoxuanqiang@live.com"
+```
+3.设置Git 凭据管理器
+```bsah
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+```
